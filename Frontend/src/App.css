@@ -1,0 +1,10 @@
+
+/* This file intentionally kept minimal as we're using Tailwind CSS */
+/* Mobile-specific overrides can be added here if needed */
+
+@media (max-width: 640px) {
+  .leaflet-control-container .leaflet-top,
+  .leaflet-control-container .leaflet-bottom {
+    z-index: 400 !important;
+  }
+}
